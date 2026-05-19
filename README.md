@@ -338,7 +338,7 @@ SERVICE_NAME="gemini-angular-${{ secrets.ALUMNO_ID }}-${{ secrets.ENVIRONMENT_NA
 IMAGE_TAG="..../app-${{ secrets.ALUMNO_ID }}:${{ github.sha }}"
 ```
 
-Cada alumno usa su propio `ALUMNO_ID` como secreto, lo que genera nombres de servicio e imágenes únicos. Así todos trabajan en el mismo proyecto GCP sin colisiones.
+Cada alumno usa su propio `ALUMNO_ID` como secreto, lo que genera nombres de servicio e imágenes únicos. Así todos trabajan en el mismo proyecto GCP sin colisiones
 
 ---
 
