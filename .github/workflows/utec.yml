@@ -13,7 +13,7 @@ env:
 jobs:
   # 1. JOB DE CONSTRUCCIÓN Y DESPLIEGUE INICIAL / CANARY (10%)
   build_and_canary:
-    environment: dev
+    
     runs-on: ubuntu-latest
     permissions:
       contents: 'read'
