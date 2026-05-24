@@ -10,7 +10,7 @@ export function initializeApp(configService: ConfigService) {
 }
 
 export const appConfig: ApplicationConfig = {
-  provides: [
+  providers: [
     provideRouter(routes),
     provideAnimationsAsync(),
     provideHttpClient(),
